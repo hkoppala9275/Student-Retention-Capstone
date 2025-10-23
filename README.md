@@ -33,3 +33,40 @@ By identifying early risk patterns, universities can design proactive support sy
 ---
 
 ## Repository Structure
+Student-Retention-Capstone/
+├── data/
+│ ├── raw/
+│ ├── interim/
+│ └── processed/
+├── notebooks/
+│ ├── 01_data_exploration.ipynb
+│ ├── 02_data_cleaning.ipynb
+│ └── 03_modeling.ipynb
+├── src/
+│ ├── data/
+│ ├── features/
+│ ├── models/
+│ └── visualization/
+├── reports/
+│ ├── figures/
+│ └── sprint2_report.pdf
+├── requirements.txt
+├── .gitignore
+└── README.md
+
+
+---
+
+## Next Steps (Sprint 3)
+- Implement ML models (Random Forest, Gradient Boosting, Logistic Regression)
+- Evaluate using AUC-ROC, precision, recall
+- Visualize feature importance and interpret findings
+- Develop actionable recommendations for universities
+
+---
+
+## References
+- Kaggle: Predict Student Dropout and Academic Success Dataset  
+- U.S. Department of Education: IPEDS  
+- Pedregosa et al. (2011). *Scikit-learn: Machine Learning in Python*
+
